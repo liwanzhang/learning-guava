@@ -12,9 +12,16 @@
     <junit.version>4.9</junit.version>
     <guava.version>18.0</guava.version>
     <spring.version>4.1.7.RELEASE</spring.version>
+    <fastjson.version>1.2.7</fastjson.version>
   </properties>
 
   <dependencies>
+    <!--fastjson-->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>${fastjson.version}</version>
+    </dependency>
     <!--spring-->
     <dependency>
       <groupId>org.springframework</groupId>

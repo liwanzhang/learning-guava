@@ -7,8 +7,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import zwl.learning.guava.api.HelloApi;
 
-import javax.annotation.Resource;
-
 /**
  * @description
  * @author zhangwanli

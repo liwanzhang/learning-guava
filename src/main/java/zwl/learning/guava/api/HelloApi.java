@@ -17,4 +17,16 @@ public class HelloApi {
     public String hello(String name) {
         return helloService.hello(name);
     }
+    public String hello2(String name) {
+        return helloService.hello2(name);
+    }
+    public String hello3(String name) {
+        return helloService.hello3(name);
+    }
+    public String helloWithTimeOut2(String name) {
+        return helloService.helloWithTimeOut2(name);
+    }
+
+
+
 }
